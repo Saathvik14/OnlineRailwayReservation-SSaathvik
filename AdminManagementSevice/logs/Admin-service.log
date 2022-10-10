@@ -1,0 +1,361 @@
+2022-10-10 12:54:05.964  INFO 18108 --- [main] c.p.A.AdminManagementSeviceApplication   : Starting AdminManagementSeviceApplication using Java 15.0.1 on DESKTOP-4DGDQVK with PID 18108 (D:\MicrosevicesApp\Project\AdminManagementSevice\target\classes started by Doomsday in D:\MicrosevicesApp\Project\AdminManagementSevice)
+2022-10-10 12:54:05.980  INFO 18108 --- [main] c.p.A.AdminManagementSeviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-10 12:54:09.771  INFO 18108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-10 12:54:09.777  INFO 18108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-10 12:54:12.288  INFO 18108 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.project.AdminManagementSevice.repository.AdminRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-10 12:54:12.292  INFO 18108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 0 JPA repository interfaces.
+2022-10-10 12:54:12.450  INFO 18108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-10 12:54:12.451  INFO 18108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-10 12:54:12.990  INFO 18108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 537 ms. Found 1 MongoDB repository interfaces.
+2022-10-10 12:54:14.074  INFO 18108 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7a6cb19e-bb9b-3509-b1d1-b51f3a681ab5
+2022-10-10 12:54:15.722  INFO 18108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8065 (http)
+2022-10-10 12:54:15.765  INFO 18108 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-10 12:54:15.766  INFO 18108 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-10 12:54:16.427  INFO 18108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-10 12:54:16.428  INFO 18108 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10205 ms
+2022-10-10 12:54:18.652  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-srv-cluster0.aloxi4w.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017 to client view of cluster
+2022-10-10 12:54:18.785  INFO 18108 --- [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/15.0.1+9-18"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=majority, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='Saathvik', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@8f2e3e6]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.aloxi4w.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-qmiuy4-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-10 12:54:18.787  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-srv-cluster0.aloxi4w.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017 to client view of cluster
+2022-10-10 12:54:18.800  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-srv-cluster0.aloxi4w.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017 to client view of cluster
+2022-10-10 12:54:19.313  WARN 18108 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-10-10 12:54:19.992  WARN 18108 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-10-10 12:54:20.022  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:99246}] to ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017
+2022-10-10 12:54:20.026  INFO 18108 --- [cluster-rtt-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:99246}] to ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017
+2022-10-10 12:54:20.026  INFO 18108 --- [cluster-rtt-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:159253}] to ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017
+2022-10-10 12:54:20.028  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:168081}] to ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 12:54:20.030  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=475858200, setName='atlas-qmiuy4-shard-0', canonicalAddress=ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, hosts=[ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017], passives=[], arbiters=[], primary='ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000073, setVersion=3, topologyVersion=TopologyVersion{processId=633c5a50f3238b6a011b7400, counter=6}, lastWriteDate=Mon Oct 10 12:54:19 IST 2022, lastUpdateTimeNanos=826207695849800}
+2022-10-10 12:54:20.034  INFO 18108 --- [cluster-rtt-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:168081}] to ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 12:54:20.035  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=477928600, setName='atlas-qmiuy4-shard-0', canonicalAddress=ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, hosts=[ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017], passives=[], arbiters=[], primary='ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=633f0382b0e4ba27171b3844, counter=3}, lastWriteDate=Mon Oct 10 12:54:19 IST 2022, lastUpdateTimeNanos=826207698145000}
+2022-10-10 12:54:20.037  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:159253}] to ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017
+2022-10-10 12:54:20.038  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=494887400, setName='atlas-qmiuy4-shard-0', canonicalAddress=ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017, hosts=[ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017], passives=[], arbiters=[], primary='ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=633c59fcdc4191eb6c6131c8, counter=4}, lastWriteDate=Mon Oct 10 12:54:19 IST 2022, lastUpdateTimeNanos=826207713225500}
+2022-10-10 12:54:20.038  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff0000000000000073 from replica set primary ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 12:54:20.039  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 3 from replica set primary ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 12:54:20.040  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 12:54:22.935  INFO 18108 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-10 12:54:23.128  INFO 18108 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-10 12:54:24.398  INFO 18108 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-10 12:54:25.041  INFO 18108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-10 12:54:25.056  WARN 18108 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2022-10-10 12:54:27.037  INFO 18108 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2022-10-10 12:54:27.046  INFO 18108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-10 12:54:27.144  INFO 18108 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2022-10-10 12:54:28.152  INFO 18108 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-10 12:54:28.162  INFO 18108 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-10 12:54:29.438  WARN 18108 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-10 12:54:30.323  WARN 18108 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-10 12:54:30.325  INFO 18108 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/v2/api-docs']
+2022-10-10 12:54:30.326  WARN 18108 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/configuration/ui']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-10 12:54:30.327  INFO 18108 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/configuration/ui']
+2022-10-10 12:54:30.327  WARN 18108 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-10 12:54:30.327  INFO 18108 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/swagger-resources/**']
+2022-10-10 12:54:30.328  WARN 18108 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/configuration/security']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-10 12:54:30.328  INFO 18108 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/configuration/security']
+2022-10-10 12:54:30.328  WARN 18108 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/swagger-ui/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-10 12:54:30.328  INFO 18108 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/swagger-ui/**']
+2022-10-10 12:54:30.329  WARN 18108 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/swagger-ui']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-10 12:54:30.329  INFO 18108 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/swagger-ui']
+2022-10-10 12:54:30.329  WARN 18108 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/swagger-ui.html']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-10 12:54:30.330  INFO 18108 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/swagger-ui.html']
+2022-10-10 12:54:30.330  WARN 18108 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-10 12:54:30.331  INFO 18108 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/webjars/**']
+2022-10-10 12:54:30.403  INFO 18108 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1eb207c3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29f86630, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f2d0ca2, org.springframework.security.web.header.HeaderWriterFilter@3dfaa1e4, org.springframework.security.web.authentication.logout.LogoutFilter@2b370ca9, com.project.AdminManagementSevice.service.JwtFilterRequest@57b1ec84, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@514c6ca0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2b69ff13, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6b8a9e1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@85fd4b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a1c308b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46878216, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c51fc9a, org.springframework.security.web.session.SessionManagementFilter@44cab872, org.springframework.security.web.access.ExceptionTranslationFilter@95958d9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a865ebf]
+2022-10-10 12:54:30.449  INFO 18108 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-10 12:54:30.966  INFO 18108 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-10-10 12:54:31.331  WARN 18108 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-10 12:54:31.480  INFO 18108 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-10-10 12:54:31.571  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-10-10 12:54:31.583  INFO 18108 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 12:54:31.651  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-10-10 12:54:31.652  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-10-10 12:54:31.652  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-10-10 12:54:31.652  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-10-10 12:54:31.652  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-10-10 12:54:31.653  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-10-10 12:54:31.654  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-10-10 12:54:32.312  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-10-10 12:54:33.599  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-10-10 12:54:33.606  INFO 18108 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-10 12:54:33.613  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1665386673612 with initial instances count: 2
+2022-10-10 12:54:33.616  INFO 18108 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-MANAGEMENT-SERVICE with eureka with status UP
+2022-10-10 12:54:33.617  INFO 18108 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1665386673617, current=UP, previous=STARTING]
+2022-10-10 12:54:33.619  INFO 18108 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-MANAGEMENT-SERVICE/DESKTOP-4DGDQVK:Admin-management-service:8065: registering service...
+2022-10-10 12:54:33.653  INFO 18108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8065 (http) with context path ''
+2022-10-10 12:54:33.654  INFO 18108 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8065
+2022-10-10 12:54:33.682  INFO 18108 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-MANAGEMENT-SERVICE/DESKTOP-4DGDQVK:Admin-management-service:8065 - registration status: 204
+2022-10-10 12:54:33.772  INFO 18108 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-10 12:54:33.792  INFO 18108 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-10 12:54:33.850  INFO 18108 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-10 12:54:34.055  INFO 18108 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateTrainUsingPUT_1
+2022-10-10 12:54:34.145  INFO 18108 --- [main] c.p.A.AdminManagementSeviceApplication   : Started AdminManagementSeviceApplication in 31.044 seconds (JVM running for 35.094)
+2022-10-10 12:59:31.667  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:04:31.676  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:09:31.710  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:14:31.725  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:19:31.734  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:24:31.739  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:29:31.750  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:34:31.760  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:39:31.775  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:44:31.787  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:46:09.254  INFO 18108 --- [http-nio-8065-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-10 13:46:09.255  INFO 18108 --- [http-nio-8065-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-10 13:46:09.305  INFO 18108 --- [http-nio-8065-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 50 ms
+2022-10-10 13:46:10.018  INFO 18108 --- [http-nio-8065-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:169520}] to ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 13:49:31.800  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:54:31.802  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 13:59:31.807  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:04:31.819  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:09:31.824  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:14:31.838  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:19:31.843  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:24:31.853  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:29:31.861  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:34:31.868  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:39:31.885  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:44:31.893  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:49:31.901  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:54:31.913  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 14:59:32.080  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 15:04:32.102  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 15:09:32.113  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 15:14:32.128  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 15:35:15.933  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:696) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:410) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:369) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:221) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157) ~[mongodb-driver-core-4.6.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:110) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:135) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:713) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:571) ~[mongodb-driver-core-4.6.1.jar:na]
+	... 5 common frames omitted
+
+2022-10-10 15:35:15.932  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:696) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:410) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:369) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:221) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157) ~[mongodb-driver-core-4.6.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:110) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:135) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:713) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:571) ~[mongodb-driver-core-4.6.1.jar:na]
+	... 5 common frames omitted
+
+2022-10-10 15:35:16.286  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:102738}] to ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017
+2022-10-10 15:35:16.287  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:162738}] to ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017
+2022-10-10 15:35:16.299  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=254331700, setName='atlas-qmiuy4-shard-0', canonicalAddress=ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, hosts=[ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017], passives=[], arbiters=[], primary='ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=633f0382b0e4ba27171b3844, counter=3}, lastWriteDate=Mon Oct 10 15:35:15 IST 2022, lastUpdateTimeNanos=835863988486900}
+2022-10-10 15:35:16.304  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=256100500, setName='atlas-qmiuy4-shard-0', canonicalAddress=ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017, hosts=[ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017], passives=[], arbiters=[], primary='ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=633c59fcdc4191eb6c6131c8, counter=4}, lastWriteDate=Mon Oct 10 15:35:15 IST 2022, lastUpdateTimeNanos=835863990254100}
+2022-10-10 15:35:16.366  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:696) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:410) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:369) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:221) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157) ~[mongodb-driver-core-4.6.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:110) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:135) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:713) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:571) ~[mongodb-driver-core-4.6.1.jar:na]
+	... 5 common frames omitted
+
+2022-10-10 15:35:16.755  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:10, serverValue:171861}] to ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 15:35:16.756  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=249010500, setName='atlas-qmiuy4-shard-0', canonicalAddress=ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, hosts=[ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017], passives=[], arbiters=[], primary='ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000073, setVersion=3, topologyVersion=TopologyVersion{processId=633c5a50f3238b6a011b7400, counter=6}, lastWriteDate=Mon Oct 10 15:35:16 IST 2022, lastUpdateTimeNanos=835864458184400}
+2022-10-10 15:35:16.757  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 15:35:18.014  INFO 18108 --- [cluster-rtt-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:12, serverValue:171919}] to ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 15:35:18.014  INFO 18108 --- [cluster-rtt-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:11, serverValue:162665}] to ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017
+2022-10-10 15:35:18.468  WARN 18108 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m19s122ms124µs500ns).
+2022-10-10 15:35:20.860  INFO 18108 --- [cluster-rtt-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:13, serverValue:102741}] to ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017
+2022-10-10 16:54:02.629  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:696) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:410) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:369) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:221) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157) ~[mongodb-driver-core-4.6.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:110) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:135) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:713) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:571) ~[mongodb-driver-core-4.6.1.jar:na]
+	... 5 common frames omitted
+
+2022-10-10 16:54:02.632  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:696) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:410) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:369) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:221) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157) ~[mongodb-driver-core-4.6.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:110) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:135) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:713) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:571) ~[mongodb-driver-core-4.6.1.jar:na]
+	... 5 common frames omitted
+
+2022-10-10 16:54:03.086  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:696) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:410) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:369) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:221) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157) ~[mongodb-driver-core-4.6.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:110) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:135) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:713) ~[mongodb-driver-core-4.6.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:571) ~[mongodb-driver-core-4.6.1.jar:na]
+	... 5 common frames omitted
+
+2022-10-10 16:54:03.811  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:14, serverValue:105075}] to ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017
+2022-10-10 16:54:03.811  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:15, serverValue:165127}] to ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017
+2022-10-10 16:54:03.811  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=747131500, setName='atlas-qmiuy4-shard-0', canonicalAddress=ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017, hosts=[ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017], passives=[], arbiters=[], primary='ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=633c59fcdc4191eb6c6131c8, counter=4}, lastWriteDate=Mon Oct 10 16:54:03 IST 2022, lastUpdateTimeNanos=840591539932500}
+2022-10-10 16:54:03.811  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=747787200, setName='atlas-qmiuy4-shard-0', canonicalAddress=ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, hosts=[ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017], passives=[], arbiters=[], primary='ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=633f0382b0e4ba27171b3844, counter=3}, lastWriteDate=Mon Oct 10 16:54:03 IST 2022, lastUpdateTimeNanos=840591539932200}
+2022-10-10 16:54:04.261  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:16, serverValue:174980}] to ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 16:54:04.262  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=895205200, setName='atlas-qmiuy4-shard-0', canonicalAddress=ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, hosts=[ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017, ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017], passives=[], arbiters=[], primary='ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000073, setVersion=3, topologyVersion=TopologyVersion{processId=633c5a50f3238b6a011b7400, counter=6}, lastWriteDate=Mon Oct 10 16:54:03 IST 2022, lastUpdateTimeNanos=840591990178700}
+2022-10-10 16:54:04.263  INFO 18108 --- [cluster-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 16:54:11.664  INFO 18108 --- [cluster-rtt-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:17, serverValue:174961}] to ac-g1o6n6r-shard-00-01.aloxi4w.mongodb.net:27017
+2022-10-10 16:54:11.686  INFO 18108 --- [cluster-rtt-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:18, serverValue:165164}] to ac-g1o6n6r-shard-00-00.aloxi4w.mongodb.net:27017
+2022-10-10 16:54:12.116  INFO 18108 --- [cluster-rtt-ClusterId{value='6343c8a2fdd963314e8c439c', description='null'}-ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:19, serverValue:105111}] to ac-g1o6n6r-shard-00-02.aloxi4w.mongodb.net:27017
+2022-10-10 16:54:14.575  WARN 18108 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m56s132ms243µs500ns).
+2022-10-10 16:57:47.317  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:02:47.326  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:07:47.333  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:12:47.335  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:17:47.343  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:22:47.885  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:27:47.893  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:32:47.906  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:37:47.917  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:42:47.954  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:47:47.963  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:52:47.973  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 17:57:47.981  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:02:47.995  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:07:48.003  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:12:48.013  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:17:48.022  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:22:48.025  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:27:48.036  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:32:48.057  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:37:48.062  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:42:48.069  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:47:48.078  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:52:48.084  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 18:57:48.089  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:02:48.095  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:07:48.104  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:12:48.114  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:17:48.124  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:22:48.133  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:27:48.140  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:32:48.145  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:37:48.161  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:42:48.171  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:47:48.178  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:52:48.196  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 19:57:48.201  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:02:48.202  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:07:48.209  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:12:48.218  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:17:48.236  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:22:48.257  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:27:48.261  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:32:48.272  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:37:48.285  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:42:48.296  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:47:48.298  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:52:48.300  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 20:57:48.305  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 21:02:48.320  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 21:07:48.328  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 21:12:48.335  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 21:17:48.344  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 21:22:48.348  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 21:27:48.356  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-10 21:32:48.357  INFO 18108 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

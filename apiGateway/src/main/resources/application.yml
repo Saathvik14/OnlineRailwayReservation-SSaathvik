@@ -1,0 +1,12 @@
+server:
+  port: 8084
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: Api-Gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
